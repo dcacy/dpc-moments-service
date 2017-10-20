@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: <your app name>
+  host: <your app host name>
+  disk_quota: 1024M
+  env:
+    WORKSPACE_APP_ID: <app id>
+    WORKSPACE_APP_SECRET: <app secret>
+    DEBUG: dpc-moments-service-*

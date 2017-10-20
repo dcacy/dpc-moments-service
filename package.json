@@ -1,0 +1,21 @@
+{
+  "name": "dpc-moments-service",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {},
+  "engines": {
+    "node": "4.x"
+  },
+  "dependencies": {
+    "cfenv": "^1.0.4",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.0",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2"
+  }
+}
