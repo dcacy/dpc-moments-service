@@ -60,6 +60,12 @@ applications:
     DEBUG: dpc-moments-service-* (optional)
 
 ```
+### Connections proxy
+
+The widget will be making calls to the app deployed in some place other than the Connections server,
+so you will need to configure the Connections proxy to allow these calls.  Full description of how to do this
+is beyond the scope of this README, so please refer to the Knowledge Center, specifically [this article](https://www.ibm.com/support/knowledgecenter/en/SSYGQH_6.0.0/connectors/icec/install/cec-inst-ibm-conx-proxy-config.html).
+
 
 ### Engagement Center
 
